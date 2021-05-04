@@ -1,0 +1,23 @@
+@import '../styles/variables.scss';
+
+.book {
+    border: 1px solid silver;
+    margin-top: .5rem;
+  }
+  .book--container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items: stretch;
+  }
+  
+  .search-params {
+    margin: $spacing-xxs;
+    padding: $spacing-xxs;
+    flex-grow: 3;
+  
+  }
+  .sidebar {
+    flex-grow: 1;
+  }
+  

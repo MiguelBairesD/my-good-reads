@@ -65,33 +65,6 @@ main {
   margin: 0 auto;
 }
 
-.reading-list-container {
-  padding: 0;
-  width: 400px;
-  height: 100vh;
-
-  h2 {
-    position: relative;
-    color: $white;
-    background-color: $gray80;
-    margin: 0;
-    padding: 0.75rem;
-    text-align: center;
-  }
-
-  button {
-    position: absolute;
-    top: $spacing-xxs;
-    right: $spacing-xxs;
-    padding: 0;
-    min-width: 36px;
-  }
-}
-
-.reading-list-content {
-  padding: $spacing-xxs;
-}
-
 .empty {
   display: flex;
   text-align: center;
@@ -109,22 +82,8 @@ form {
 .full-width {
   width: 100%;
 }
-.book {
-  border: 1px solid silver;
-  margin-top: .5rem;
-}
-.book--container {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content:space-around;
-  align-items: stretch;
-}
 
-.search-params {
-  flex-grow: 3;
-
-}
-.sidebar {
-  flex-grow: 1;
-
+.clickable{
+  cursor: pointer;
+  font-weight: bold;
 }

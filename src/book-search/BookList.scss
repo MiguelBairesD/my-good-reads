@@ -1,0 +1,25 @@
+@import '../styles/variables.scss';
+
+section#bookResults{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+#bookResults article {
+  width: 250px;
+  align-self: stretch;
+  max-height: 450px;
+}
+
+#bookResults article img{
+  min-height: 200px;
+}
+
+#bookResults .description{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
